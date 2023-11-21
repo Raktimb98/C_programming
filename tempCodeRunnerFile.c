@@ -1,0 +1,1 @@
+printf("Your sum of %d ,%d and %d is:", (num1 + num2 + num3));
