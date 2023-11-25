@@ -20,4 +20,3 @@ void calculatePrice(float value) {
     finalPrice = value + (0.18 * value);
     printf("Your final price is: %f\n", finalPrice);
 }
-//04.29.17 video timeline
