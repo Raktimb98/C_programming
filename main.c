@@ -33,17 +33,17 @@ int main(void)
     //     sum+=i;
     // }
     // printf("Sum of first %d natural numbers is %d",num,sum);
-    int n;
-    do
-    {
-        printf("Enter a number:- ");
-        scanf("%d", &n);
-        if (n % 2 != 0)
+do
+{
+    int num;
+  printf("Enter a number:-");
+  scanf("%d",&num);
+if (num % 7 ==0)
+{
+    break;
+}
 
-        {
-            break;
-        }
+} while (1);
 
-    } while (1);
-    return 0;
+        return 0;
 }
